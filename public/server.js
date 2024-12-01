@@ -487,6 +487,10 @@ const newTab = () => {
   });
 };
 
+const getCurrentYear = () => {
+  return TODAY.getFullYear();
+}
+
 const getMonthYear = () => {
   // Create a new Date object for the current date and time
 
