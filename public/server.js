@@ -683,6 +683,7 @@ const displayReceipt = (response, stats) => {
     itemCount: tracksFormatted.length,
     isStats: type === 'stats',
     isInternational: font === 'international',
+    currentYear: getCurrentYear(),
   });
 
   if (type === 'build-receipt') {
